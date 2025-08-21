@@ -1,0 +1,5 @@
+fastapi==0.116.1
+uvicorn==0.35.0
+SQLAlchemy==2.0.36
+pandas==2.3.1
+Janome==0.5.0

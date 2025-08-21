@@ -2,7 +2,7 @@ from fastapi import FastAPI, Depends, Query
 from sqlalchemy.orm import Session
 from collections import Counter
 from janome.tokenizer import Tokenizer
-from db import SessionLocal, InstagramData
+from app.db import SessionLocal, InstagramData
 
 app = FastAPI()
 

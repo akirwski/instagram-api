@@ -1,7 +1,7 @@
 import pandas as pd
 from sqlalchemy.orm import Session
-from db import SessionLocal, InstagramData
-import const as const
+from app.db import SessionLocal, InstagramData
+import app.const as const
 
 
 def load_csv_to_db():
